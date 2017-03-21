@@ -1,0 +1,20 @@
+@charset"utf-8";
+.wrapper{ 
+	position: relative;
+	background-color: #DB8900;
+}
+/* 格子 */
+.grid{
+	float: left;
+	border:1px solid #333;
+}
+/* 黑白棋子 */
+.black,.white{
+	position: absolute;
+}
+.black{
+	background-color:#333;			
+}
+.white{
+	background-color:#fff;
+}

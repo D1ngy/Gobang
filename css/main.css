@@ -1,0 +1,37 @@
+@charset"utf-8";
+*{ margin: 0; padding: 0; }
+h1{ 
+	margin-left: 200px;
+	line-height: 48px;
+ }
+.wrapper{
+	float: left;
+	margin: 10px;
+}
+#control {
+	float: left;
+	width: 200px;
+	margin: 100px;
+	text-align: center;
+}
+#hint{
+	font-size: 24px;
+	line-height: 36px;
+}
+#control button{
+	width: 100px;
+	height: 40px;
+	margin: 15px auto;
+	border: 1px solid #666;
+	background-color: #fff;
+	color:#666;
+	cursor: pointer;
+}
+#control button:hover{
+	background-color: #666;
+	color: #fff;
+}
+.info{
+	margin-top: 30px;
+	text-align: center;
+}

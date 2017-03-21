@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>canvas版本</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<h1>canvas版五子棋</h1>
+<!-- 棋盘 begin -->
+<div class="wrapper">
+	<canvas id="board" width="600" height="600">您的浏览器不只支持canvas，请使用Google Chrome浏览器或其他高版本浏览器访问</canvas>	
+</div>
+<!-- 棋盘 end -->
+<!-- 按钮信息 begin -->
+<div id="control">
+	<p id="hint">黑子先手</p>
+	<button id="reset">重新开始</button>
+	<button id="retraction">悔棋</button>
+	<button id="recallRetraction">撤销悔棋</button>
+	<p class="info">by 丁文毅</p>
+	<p class="info">Date 2017.2.23</p>
+</div>
+<!-- 按钮信息 end -->
+<script type="text/javascript" src="js/view_canvas.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
