@@ -4,6 +4,7 @@ h1{
 	margin-left: 200px;
 	line-height: 48px;
  }
+ /* 外层包 */
 .wrapper{
 	float: left;
 	margin: 10px;
