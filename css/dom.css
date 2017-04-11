@@ -12,6 +12,7 @@
 .black,.white{
 	position: absolute;
 }
+/* 黑棋 */
 .black{
 	background-color:#333;			
 }
