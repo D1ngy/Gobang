@@ -55,6 +55,7 @@ var Chess = {
 		//垂直线
 		board.moveTo(left,top-s/2);
 		board.lineTo(left,top+s/2);
+		//完成
 		board.stroke();
 	},
 };
