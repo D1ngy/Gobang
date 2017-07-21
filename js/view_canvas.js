@@ -26,7 +26,7 @@ var ChessBoard = {
 		//描画格子线
 		for(var i = 0; i<=ChessBoard.boardSize; i++){
 			this.createLine(i);
-		}			
+		}
 		Rule.createBoardArr();
 	},
 };
